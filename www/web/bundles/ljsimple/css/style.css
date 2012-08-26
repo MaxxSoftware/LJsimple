@@ -1,0 +1,2444 @@
+body
+{
+	height: 100%;
+}
+#outer_wrapper
+{
+
+}
+#container 
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin-right: -60px;	/*background: url(background_2.gif) repeat-y right;*/
+}
+
+
+#container_left 
+{
+	width: 60px;
+	float: left;
+	position: relative;
+}
+
+#sidebar 
+{
+	width: 60px;
+	float: right;
+}
+
+#content {
+	height: 100%;
+	margin-right: 60px;
+}
+
+#main
+{
+	height: 100%;
+	margin-left: 60px;
+	border: 1px dotted #000000;
+	box-shadow: 0 0 6px rgba(10,10,10,.4);
+	-moz-box-shadow: 0 0 6px rgba(10,10,10,.4);
+	-webkit-box-shadow: 0 0 6px rgba(10,10,10,.4);
+}
+/*****************************************/
+a
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+}
+
+p
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #333333;
+	font-size: 14px;
+	padding-top: 4px;
+}
+
+h1
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2 {
+    color: #333333;
+    font-family: 'Segoe UI','Arial';
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+
+
+.stub
+{
+	height: 33px;
+	width: 1000px;
+	background-color: #FFFFFF;
+	margin-top: 30px;
+	padding: 0px;
+}
+
+textarea
+{
+    resize : none;
+}
+
+
+#header
+{
+	background-image: url(/web/bundles/ljsimple/img/main/header.png);
+	background-repeat: repeat-x;
+	height: 82px;
+	z-index: 1000;
+	position: relative;
+	max-height: 82px;
+	min-width: 1000px;
+}
+
+.left_border
+{
+	float: left;
+	width: 60px;
+}
+
+#header a:hover
+{
+	color: #993300;
+}
+
+#header .main_logo
+{
+	background-image: url(/web/bundles/ljsimple/img/main/main_logo.png);
+	height: 47px;
+	width: 216px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 30px;
+}
+
+#header .right
+{
+	float: right;
+	width: 600px;
+}
+
+#login_menu
+{
+	font-family: 'Segoe UI', 'Arial';
+	text-align: right;
+	font-size: 14px;
+	color: #333333;
+	margin-right: 30px;
+	margin-left: 300px;
+	padding-top: 12px;
+	width: 300px;
+	float: right;
+}
+
+#login_menu a
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	color: #006699;
+	text-decoration: underline;
+}
+
+#main_menu
+{
+	margin-left: 300px;
+	margin-right: 20px;
+	width: 720px;
+	margin-top: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	float: right;
+}
+
+
+/*----- Navigation -----*/
+#nav {
+
+}
+#nav li {
+	float:right;
+}
+#nav li a {
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	left: 10px;
+	top: 8px;
+	right: 10px;
+	bottom: 8px;
+}
+
+#nav li a:hover, #nav li a.active {
+	background-image: url(/web/bundles/ljsimple/img/main/pixel.png);
+	background-repeat: repeat;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	left: 10px;
+	top: 8px;
+	right: 10px;
+	bottom: 8px;
+	color: #000000;
+}
+body
+{
+	height: 100%;
+	background-image: url(/web/bundles/ljsimple/img/main/bg.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+#dialog_form
+{
+	width: 368px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	font-family: 'Segoe UI', 'Arial';
+	color: #333333;
+}
+
+#dialog_form .link
+{
+	color: #006699;
+	text-decoration: underline;
+	height: 34px;
+	padding-top: 6px;
+	float: left;
+}
+
+#dialog_form .caption_link
+{
+	color: #BFEBFF;
+	text-decoration: underline;
+}
+
+#dialog_form .top_login
+{
+	width: 368px;
+	background-image: url(/web/bundles/ljsimple/img/main/dialog_top_login.png);
+	background-repeat: no-repeat;
+	height: 74px;
+}
+
+#dialog_form .top_feed
+{
+	width: 368px;
+	background-image: url(/web/bundles/ljsimple/img/main/dialog_top_feed.png);
+	background-repeat: no-repeat;
+	height: 74px;
+}
+
+#dialog_form .wrap
+{
+	width: 368px;
+	background-image: url(/web/bundles/ljsimple/img/main/login_form_shadow.png);
+	background-repeat: repeat-y;
+}
+
+#dialog_form .bottom
+{
+	width: 368px;
+	background-image: url(/web/bundles/ljsimple/img/main/login_form_bottom.png);
+	background-repeat: repeat-y;
+	height: 37px;
+}
+
+#dialog_form .wrap_content
+{
+	width: 280px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 16px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-size: 14px;
+}
+
+#dialog_form .sub_content
+{
+	width: 280px;
+	height: 40px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	position: relative;
+}
+
+
+#dialog_form .left
+{
+	float: left;
+}
+
+#dialog_form .right
+{
+	float: right;
+}
+
+#dialog_form .error,#dialog_form  delete_error
+{
+	padding-left: 40px;
+	color: #CC3300;
+	background-image: url(/web/bundles/ljsimple/img/main/ic_login_error.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	height: 40px;
+	border-style: none;
+}
+
+#dialog_form .caption
+{
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+input, textarea
+{
+	
+}
+
+#dialog_form input[type=text],
+#dialog_form input[type=password],
+#dialog_form textarea
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+	
+	padding: 2px;
+	behavior: url('/templates/template2/input.htc');
+	margin-top: 7px;
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 2px;
+	border-top-style: outset;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: outset;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	width: 274px;
+	height: 25px;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+#dialog_form input[type=checkbox]
+{
+	padding: 0px;
+	margin-top: 16px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 15px;
+	height: 15px;
+}
+
+#dialog_form input[type=text]:focus,
+#dialog_form input[type=password]:focus,
+#dialog_form textarea:focus
+{
+	box-shadow: 0 0 3px rgba(10,10,10,.2);
+	-moz-box-shadow: 0 0 3px rgba(10,10,10,.2);
+	-webkit-box-shadow: 0 0 3px rgba(10,10,10,.2);
+}
+
+/*----- Icons -----*/
+.icon 
+{
+	display:inline-block;
+	cursor:pointer;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	font-size: 1px;
+	float: left;
+}
+
+.envelope {
+	background-image: url(/web/bundles/ljsimple/img/main/ic_envelope.png);
+	background-repeat: no-repeat;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-bottom: 1px;
+	margin-left: 2px;
+	float: left;
+	height: 34px;
+}
+
+.question
+{
+	background-image: url(/web/bundles/ljsimple/img/main/ic_question.png);
+	background-repeat: no-repeat;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+/*----Buttons-----*/
+.button
+{
+	font-family: 'Segoe UI', 'Arial';
+	background-image:url(/web/bundles/ljsimple/img/main/button.png);
+	color:#333333;
+	cursor:pointer;
+	font-size: 22px;
+	height: 34px;
+	width: 128px;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	position: relative;
+	float: right;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.button:hover  {color: #993300;}
+
+.button_mon
+{
+	font-family: 'Segoe UI', 'Arial';
+	background-image:url(/web/bundles/ljsimple/img/main/button_mon.png);
+	color:#333333;
+	cursor:pointer;
+	font-size: 14px;
+	height: 24px;
+	width: 96px;
+	text-decoration: none;
+	text-align: center;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.button_mon:hover  {color: #993300;}
+
+.button_reference1
+{
+	font-family: 'Segoe UI', 'Arial';
+	background-image:url(/web/bundles/ljsimple/img/main/button_reference1.png);
+	color:#333333;
+	cursor:pointer;
+	font-size: 14px;
+	height: 27px;
+	width: 210px;
+	text-decoration: none;
+	text-align: center;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-bottom: 2px;
+}
+
+.button_reference1::-moz-focus-inner /*Remove button padding in FF*/
+{ 
+    padding-bottom: 4px;
+}
+
+.button_reference1:hover  {color: #993300;}
+
+/*-----------------------------------------------*/
+
+#wrapper
+{
+	min-width: 1200px;
+}
+/************************/
+
+#wrap_content
+{
+	height: 100%;
+	background-color: #FFFFFF;
+	position: relative;
+	float: none;
+	overflow: hidden;
+	margin-top: 0px;
+	min-height: 480px;
+	min-width: 960px;
+	padding: 20px;
+	z-index: auto;
+}
+
+#wrap_content a:hover
+{
+	color: #993300;
+}
+
+/***************************/
+
+#footer
+{
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 41px;
+	background-image: url(/web/bundles/ljsimple/img/main/footer_bg.png);
+	background-repeat: repeat-x;
+	min-width: 1000px;
+}
+
+
+#footer_left
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	color: #000000;
+	width: 400px;
+	float: left;
+	padding-top: 12px;
+	padding-left: 20px;
+}
+
+#footer_left a
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	color: #000000;
+}
+
+#footer_right
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	width: 190px;
+	float: right;
+	padding-top: 12px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+#footer_right a
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	color: #006699;
+}
+
+#footer_right a:hover
+{
+	color: #993300;
+}
+
+#main_user_left
+{
+	width: 630px;
+	float: left;
+}
+
+#main_user_right
+{
+	width: 300px;
+	float: right;
+}
+#main_user_report_menu
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.icon_empty
+{
+	background-image: url(/web/bundles/ljsimple/img/main/report_ic_empty.png);
+	height: 30px;
+	vertical-align: middle;
+	display: inline;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	margin-bottom: 4px;
+}
+
+.icon_twice
+{
+	background-image: url(/web/bundles/ljsimple/img/main/report_ic_twice.png);
+	height: 30px;
+	vertical-align: middle;
+	display: inline;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin-bottom: 3px;
+}
+
+.icon_war
+{
+	background-image: url(/web/bundles/ljsimple/img/main/report_ic_war.png);
+	height: 30px;
+	vertical-align: middle;
+	display: inline;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	margin-bottom: 4px;
+}
+
+.icon_sum
+{
+	background-image: url(/web/bundles/ljsimple/img/main/report_ic_sum.png);
+	height: 30px;
+	vertical-align: middle;
+	display: inline;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: 3px center;
+	margin-bottom: 4px;
+}
+
+#main_user_errors
+{
+
+}
+
+#main_user_errors th
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+	height: 30px;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+.ic_normal
+{
+	background-image: url(/web/bundles/ljsimple/img/main/icon_table_normal.png);
+	width: 19px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: 3px center;
+}
+
+.ic_error
+{
+	background-image: url(/web/bundles/ljsimple/img/main/icon_table_error.png);
+	height: 16px;
+	width: 16px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: 3px;
+	font-weight: bold;
+}
+
+.ic_warning
+{
+	background-image: url(/web/bundles/ljsimple/img/main/icon_table_warning.png);
+	height: 16px;
+	width: 16px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: 2px;
+	font-weight: bold;
+}
+
+#main_user_errors td
+{
+	font-family: 'Segoe UI', 'Arial';
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	height: 30px;
+	vertical-align: middle;
+	font-size: 14px;
+	color: #333333;
+}
+
+#main_urermanual_popup
+{
+	width: 238px;
+	display: none;
+}
+
+#main_urermanual
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+	
+	padding-left: 36px;
+	padding-bottom: 4px;
+}
+
+#main_urermanual a
+{
+	cursor: pointer;
+}
+
+#main_urermanual a:hover
+{
+	color: #993300;
+}
+
+#main_urermanual_popup .top
+{
+	height: 18px;
+	background-image: url(/web/bundles/ljsimple/img/main/main_urermanual_popup_top.png);
+	background-repeat: no-repeat;
+}
+
+#main_urermanual_popup .body
+{
+	background-image: url(/web/bundles/ljsimple/img/main/main_urermanual_popup_body.png);
+	padding-top: 0px;
+	padding-right: 17px;
+	padding-bottom: 15px;
+	padding-left: 17px;
+}
+
+#main_urermanual_popup .bottom
+{
+	background-image: url(/web/bundles/ljsimple/img/main/main_urermanual_popup_bottom.png);
+	height: 6px;
+	background-repeat: no-repeat;
+}
+
+#main_urermanual_popup a
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+}
+
+#main_urermanual_popup a:hover
+{
+	color: #993300;
+}
+
+#main_urermanual_popup li
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#monitoring_subheader
+{
+	padding-bottom: 22px;
+
+}
+
+#monitoring_subheader a
+{
+	margin-left: 15px;
+	font-size: 14px;
+}
+
+#monitoring_subheader .checkbox_block
+{
+	float: left;
+	padding-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #333333;
+}
+
+#monitoring_subheader .left
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	width: 650px;
+	position: absolute;
+	float: left;
+	text-align: left;
+}
+
+#monitoring_subheader .title
+{
+	font-family: 'Segoe UI', 'Arial';
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+
+
+#monitoring_subheader .right
+{
+	width: 300px;
+	text-align: right;
+	float: right;
+	margin-top: 4px;
+}
+
+#monitoring_block
+{
+	margin-top: 15px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	z-index: 1;
+}
+
+#monitoring_block td
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #333333;
+	font-size: 14px;
+	border-top-color: #CCCCCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-left: 5px;
+	vertical-align: middle;
+	text-align: left;
+	height: 25px;
+}
+
+#monitoring_block th
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+	border-top-color: #CCCCCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-left: 5px;
+	text-align: left;
+	vertical-align: middle;
+	height: 25px;
+}
+
+#monitoring_block_header
+{
+	height: 28px;
+	background-image: url(/web/bundles/ljsimple/img/main/monitoring_block_header.png);
+	background-repeat: repeat-x;
+}
+
+#monitoring_block_header .controller_name
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #333333;
+	font-size: 16px;
+	float: left;
+	margin-top: 4px;
+	font-weight: bold;
+	padding-left: 5px;
+	width: 160px;
+}
+
+#monitoring_block_header .error
+{
+	color: #CC3300;
+}
+
+#monitoring_block_header .status_ok
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #009900;
+	font-size: 14px;
+	width: 100px;
+	background-image: url(/web/bundles/ljsimple/img/main/status_ok.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	background-position: left 10px;
+	padding-left: 15px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+
+#monitoring_block_header .status_error
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #CC3300;
+	font-size: 14px;
+	width: 100px;
+	background-image: url(/web/bundles/ljsimple/img/main/status_error.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	background-position: left 10px;
+	padding-left: 15px;
+	padding-top: 6px;
+	padding-bottom: 0px;
+}
+
+#monitoring_block_header .icon_error
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #000000;
+	font-size: 14px;
+	width: 28px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	background-position: left center;
+	background-image: url(/web/bundles/ljsimple/img/main/icon_table_error.png);
+	height: 16px;
+	padding-left: 20px;
+	margin-top: 7px;
+}
+
+#monitoring_block_header .icon_warning
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #000000;
+	font-size: 14px;
+	width: 28px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	background-position: left 1px;
+	background-image: url(/web/bundles/ljsimple/img/main/icon_table_warning.png);
+	height: 16px;
+	padding-left: 20px;
+	margin-top: 7px;
+}
+
+#monitoring_block_header a
+{
+	text-decoration: none;
+}
+
+#monitoring_block .arrows_gray
+{
+	background-image: url(/web/bundles/ljsimple/img/main/arrows_gray.png);
+	height: 16px;
+	width: 16px;
+	padding-left: 22px;
+	background-repeat: no-repeat;
+	background-position: left 6px;
+}
+
+#monitoring_block .arrows_green
+{
+	background-image: url(/web/bundles/ljsimple/img/main/arrows_green.png);
+	height: 16px;
+	width: 16px;
+	padding-left: 22px;
+	background-repeat: no-repeat;
+	background-position: left 6px;
+}
+
+#panel_buttons
+{
+	float: left;
+	height: 26px;
+	margin-right: 2px;
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+}
+
+#panel_title1
+{
+	float: left;
+	height: 26px;
+	margin-right: 2px;
+	padding-top: 6px;
+	padding-left: 10px;
+	
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 16px;
+	color: #333333;
+}
+
+#panel_title2
+{
+	float: left;
+	height: 26px;
+	margin-right: 2px;
+	padding-top: 8px;
+	padding-left: 10px;
+	
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	color: #006699;
+}
+
+#panel_buttons a
+{
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 32px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	background-image: url(/web/bundles/ljsimple/img/main/panel_buttons.png);
+	margin-right: 3px;
+}
+
+/* ---------------------------------------------------------------------- */
+/*ic_plus*/
+#panel_buttons .plus				{background-position: 0px 1px;}
+#panel_buttons .plus:hover		{background-position: 0px -25px;}
+#panel_buttons .plus_disabled	{background-position: 0px -51px;}
+
+/*ic_edit*/
+#panel_buttons .edit				{background-position: -33px 1px;}
+#panel_buttons .edit:hover		{background-position: -33px -25px;}
+#panel_buttons .edit_disabled	{background-position: -33px -51px;}
+
+/*ic_edit*/
+#panel_buttons .del				{background-position: -66px 1px;}
+#panel_buttons .del:hover		{background-position: -66px -25px;}
+#panel_buttons .del_disabled		{background-position: -66px -51px;}
+
+/*ic_zoom_in*/
+#panel_buttons .zoom_in			{background-position: -99px 1px;}
+#panel_buttons .zoom_in:hover	{background-position: -99px -25px;}
+#panel_buttons .zoom_disabled	{background-position: -99px -51px;}
+
+/*ic_zoom_out*/
+#panel_buttons .zoom_out			{background-position: -132px 1px;}
+#panel_buttons .zoom_out:hover	{background-position: -132px -25px;}
+#panel_buttons .zoom_disabled	{background-position: -123px -51px;}
+
+/*ic_xxx*/
+#panel_buttons .xxx				{background-position: -165px 1px;}
+#panel_buttons .xxx:hover		{background-position: -165px -25px;}
+#panel_buttons .xxx_disabled		{background-position: -165px -51px;}
+
+/*ic_print*/
+#panel_buttons .print			{background-position: -198px 1px;}
+#panel_buttons .print:hover		{background-position: -198px -25px;}
+#panel_buttons .print_disabled	{background-position: -198px -51px;}
+
+/*ic_filter*/
+#panel_buttons .filter			{background-position: -231px 1px;}
+#panel_buttons .filter_on       	{background-position: -231px -25px;}
+#panel_buttons .filter:hover		{background-position: -231px -25px;}
+#panel_buttons .filter_disabled	{background-position: -231px -51px;}
+
+/*ic_filter*/
+#panel_buttons .filterOff            {background-position: -429px 1px;}
+#panel_buttons .filterOff:hover        {background-position: -429px -25px;}
+#panel_buttons .filterOff_disabled    {background-position: -429px -51px;}
+
+/*ic_notepad*/
+#panel_buttons .report			{background-position: -264px 1px;}
+#panel_buttons .report:hover	{background-position: -264px -25px;}
+#panel_buttons .report_disabled	{background-position: -264px -51px;}
+
+/*ic_lock*/
+#panel_buttons .password			{background-position: -297px 1px;}
+#panel_buttons .password:hover		{background-position: -297px -25px;}
+#panel_buttons .password_disabled	{background-position: -297px -51px;}
+
+/*ic_comp*/
+#panel_buttons .comp                {background-position: -330px 1px;}
+#panel_buttons .comp:hover          {background-position: -330px -25px;}
+#panel_buttons .comp_disabled       {background-position: -330px -51px;}
+
+/*uo*/
+#panel_buttons .up                  {background-position: -363px 1px;}
+#panel_buttons .up:hover            {background-position: -363px -25px;}
+#panel_buttons .up_disabled         {background-position: -363px -51px;}
+
+/*down*/
+#panel_buttons .down                {background-position: -396px 1px;}
+#panel_buttons .down:hover          {background-position: -396px -25px;}
+#panel_buttons .down_disabled       {background-position: -396px -51px;}
+/* ---------------------------------------------------------------------- */
+
+#sessions_subheader
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	background-color: #F4F4F4;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-attachment: fixed;
+	height: 32px;
+	float: none;
+	position: relative;
+	margin-right: 38px;
+	z-index: 250;
+}
+
+#sessions_subheader_outer
+{
+	width: 100%;
+	height: 32px;
+	position: absolute;
+	overflow: visible;
+}
+
+#sessions_subheader .right
+{
+	float: right;
+	height: 26px;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	width: 350px;
+	position: static;
+}
+
+#sessions_subheader .title
+{
+	font-family: 'Segoe UI', 'Arial';
+	float: right;
+	text-align: left;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 4px;
+	padding-right: 10px;
+}
+
+#session_table
+{
+	border-right-style: solid;
+	border-left-style: solid;
+	width: 100%;
+	vertical-align: middle;
+	position: relative;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	margin-top: 55px;
+}
+
+#session_table th
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+	height: 25px;
+	padding-left: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	vertical-align: middle;
+}
+
+
+#session_table table tr input[type=checkbox]
+{
+display: none;
+}
+
+#session_table td
+{
+	font-family: 'Segoe UI', 'Arial';
+	/*color: #333333;*/
+	font-size: 14px;
+	height: 25px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	vertical-align: middle;
+	font-weight: normal;
+}
+
+#session_table .checkbox_block
+{
+	float: left;
+	padding-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #333333;
+}
+
+#panel_navigation
+{
+	height: 26px;
+	width: 80px;
+	margin-top: 0px;
+	top: 25px;
+	float: right;
+}
+
+#panel_navigation a
+{
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 30px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	background-image: url(/web/bundles/ljsimple/img/main/navigation_buttons.png);
+	margin-right: 3px;
+}
+
+#panel_navigation .left_arrow		{background-position: 0px 0px;}
+#panel_navigation .left_arrow_gray	{background-position: 0px -25px;}
+#panel_navigation .right_arrow		{background-position: -31px 0px}
+#panel_navigation .right_arrow_gray	{background-position: -31px -25px;}
+
+#sessions_panel
+{
+	min-width: 980  
+	z-index: 10;
+	background-image: url(/web/bundles/ljsimple/img/main/pixel2.png);
+	background-repeat: repeat;
+	position: relative;
+	clip: rect(auto,auto,auto,auto);
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	overflow: visible;
+	height: 79px;
+	z-index: 96;
+	margin-right: 38px;
+	clear: both;
+	padding-top: 20px;
+	margin-top: 0px;
+}
+
+
+#sessions_panel .title
+{
+	font-family: 'Segoe UI', 'Arial';
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+
+#sessions_panel .left
+{
+	margin-left: 30px;
+	width: 230px;
+	height: 60px;
+	padding-top: 10px;
+	float: left;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+#sessions_panel .right
+{
+	width: 670px;
+	height: 60px;
+	padding-top: 6px;
+	float: right;
+	position: relative;
+	margin-right: 20px;
+	z-index: 99999;
+}
+
+#sessions_panel td
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 14px;
+	color: #333333;
+	height: 30px;
+	vertical-align: middle;
+	padding-left: 4px;
+	text-align: right;
+	padding-right: 4px;
+}
+
+#sessions_panel input[type=text],
+#sessions_panel input[type=password],
+#sessions_panel textarea
+{
+	font-family: 'Segoe UI', 'Arial';
+	background: none repeat scroll 0 0 #FFFFFF;
+	behavior: url('/templates/template2/input.htc');
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: outset;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: outset;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+	margin-top: 2px;
+	text-align: center;
+}
+
+#sessions_panel input[type=checkbox]
+{
+	padding: 0px;
+	margin-top: 16px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 15px;
+	height: 15px;
+}
+
+#sessions_panel input[type=text]:focus,
+#sessions_panel input[type=password]:focus,
+#sessions_panel textarea:focus
+{
+	box-shadow: 0 0 3px rgba(10,10,10,.2);
+	-moz-box-shadow: 0 0 3px rgba(10,10,10,.2);
+	-webkit-box-shadow: 0 0 3px rgba(10,10,10,.2);
+}
+
+#sessions_panel .button
+{
+	font-family: 'Segoe UI', 'Arial';
+	background-image:url(/web/bundles/ljsimple/img/main/button_mon.png);
+	color:#333333;
+	cursor:pointer;
+	font-size: 14px;
+	height: 24px;
+	width: 96px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 4px;
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	margin-left: 3px;
+}
+/* Dialog Box */
+#dialogBox,
+#deleteDialogBox
+{
+}
+
+#dialogBox .header,
+#deleteDialogBox .header
+{
+	width: 100%;
+	height: 28px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	background-image: url(/web/bundles/ljsimple/img/main/dialog_box_header.png);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+
+} 
+
+#dialogBox .header_text,
+#deleteDialogBox .header_text
+{
+	font-family: 'Segoe UI', 'Arial';
+	color:#333333;
+	font-size: 16px;
+	padding-top: 4px;
+	padding-left: 8px;
+	float: left;
+} 
+
+
+#dialogBox .closeButton,
+#deleteDialogBox .closeButton
+{
+	float: right;
+	height: 13px;
+	width: 13px;
+	background-image: url(/web/bundles/ljsimple/img/main/dialog_box_header_closeButton.png);
+	background-repeat: no-repeat;
+	margin-top: 8px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+	margin-right: 5px;
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+} 
+#dialogBox .closeButton:hover,
+#deleteDialogBox .closeButton:hover
+{color: #993300;}
+
+
+#dialogBox .wrapper,
+#deleteDialogBox .wrapper
+{
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 16px;
+	color: #333333;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+} 
+
+
+#dialogBox input[type=text],
+#dialogBox input[type=password],
+#dialogBox textarea,
+#deleteDialogBox input[type=text],
+#deleteDialogBox input[type=password],
+#deleteDialogBox textarea
+{
+	font-family: 'Segoe UI', 'Arial';
+	background: none repeat scroll 0 0 #FFFFFF;
+	behavior: url('/templates/template2/input.htc');
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: outset;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: outset;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	width: 200px;
+	height: 20px;
+	font-size: 14px;
+	text-align: left;
+	float: right;
+	margin-bottom: 8px;
+	margin-top: -1px;
+	padding-top: -1px;
+}
+
+#dialogBox input[type=checkbox],
+#deleteDialogBox input[type=checkbox]
+{
+	float: left;
+	height: 14px;
+	width: 14px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+#dialogBox input[type=radio],
+#deleteDialogBox input[type=radio]
+{
+	float: left;
+	height: 14px;
+	width: 14px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+#dialogBox input[type=checkbox]:hover,
+#dialogBox input[type=radio]:hover,
+#dialogBox label,
+#deleteDialogBox input[type=checkbox]:hover,
+#deleteDialogBox input[type=radio]:hover,
+#deleteDialogBox label
+{
+	cursor:pointer;
+}
+
+#dialogBox input[type=text]:focus,
+#dialogBox input[type=password]:focus,
+#dialogBox textarea:focus
+#deleteDialogBox input[type=text]:focus,
+#deleteDialogBox input[type=password]:focus,
+#deleteDialogBox textarea:focus
+{
+	box-shadow: 0 0 3px rgba(10,10,10,.2);
+	-moz-box-shadow: 0 0 3px rgba(10,10,10,.2);
+	-webkit-box-shadow: 0 0 3px rgba(10,10,10,.2);
+}
+
+
+#dialogBox .title,
+#deleteDialogBox .title
+{
+	float: left;
+	height: 20px;
+	padding-top: 10px;
+	width: 100%;
+	padding-bottom: 10px;
+} 
+
+#dialogBox .title_buttons,
+#deleteDialogBox .title_buttons
+{
+	float: left;
+	height: 20px;
+	padding-top: 10px;
+	width: 100%;
+	padding-bottom: 20px;
+} 
+#dialogBox .title_buttons:hover,
+#deleteDialogBox .title_buttons:hover
+{color: #993300;}
+
+
+#dialogBox .title2,
+#deleteDialogBox .title2
+{
+	float: left;
+	height: 14px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-right: 20px;
+} 
+
+
+#dialogBox .dialogBox_sel,
+#deleteDialogBox .dialogBox_sel
+{
+	float: right;
+	margin-right: -10px;
+}
+
+#dialogBox .block,
+#deleteDialogBox .block
+{
+	width:100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+#dialogBox .sep,
+#deleteDialogBox .sep
+{
+	padding-top: 10px;
+	float: left;
+	width: 100%;
+}
+
+#dialogBox .dialogBox_button,
+#deleteDialogBox .dialogBox_button
+{
+	font-family: 'Segoe UI', 'Arial';
+	background-image:url(/web/bundles/ljsimple/img/main/button_mon.png);
+	color:#333333;
+	cursor:pointer;
+	font-size: 16px;
+	height: 24px;
+	width: 96px;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	float: right;
+	border-style: none;
+	margin-left: 10px;	
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#dialogBox .dialogBox_button:hover,
+#deleteDialogBox .dialogBox_button:hover
+{color: #993300;}
+
+
+/* Scrollbar */
+#scrollbar2 {
+    width: 100%;
+    margin: 20px 0 10px;
+    position: relative;
+}
+#scrollbar2 .viewport {
+    width: 100%;
+    overflow: hidden;
+    position: static;
+}
+
+#scrollbar2 .overview {
+    position:relative;
+    width:auto;
+}
+#scrollbar2 .overview img{ float: left; }
+#scrollbar2 .scrollbar{
+    position: absolute;
+    height: 2px;
+    margin-right: 0;
+    margin-left: 0;
+    visibility: visible;
+    background-color: #CCCCCC;
+    top: -15px;
+    z-index: 150;
+}
+#scrollbar2 .track {
+    width: 100%;
+    height:15px;
+    position: relative;
+}
+#scrollbar2 .thumb {
+    height: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    background-color: #CCCCCC;
+    border: 1px solid #999999;
+}
+#scrollbar2 .thumb .end{ overflow: hidden; height: 25px; width: 5px;}
+#scrollbar2 .disable { display: none; }
+
+
+
+/*.form .input-box {
+	position: relative;
+}*/
+
+   /* .form .input-box label {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 2px;
+	color: #333;
+	float: left;
+    }*/
+    
+        .form .input-box.invalid label {
+        
+            color: red;
+            font-weight: bold;
+        }
+        
+        .form .input-box.check label {
+        
+            display: inline;
+        }
+		
+		.form .block .title2 label
+		{
+	float: left;
+	width: 138px;
+		}
+    
+    /*.form .input-box input[type=text], .form .input-box textarea {
+    
+        width: 350px;
+        padding: 5px 5px;
+        font-size: 16px;
+        background-color: #fff;
+        border: none;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -moz-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+        -webkit-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+        box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+    }
+    
+        .form .input-box.invalid input[type=text], .form .input-box.invalid textarea {
+        
+            -moz-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+            -webkit-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+            box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+        }*/
+        
+    .form .input-box select {
+    
+        width: 360px;
+        padding: 5px 5px;
+        font-size: 16px;
+        background-color: #fff;
+        border: none;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -moz-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+        -webkit-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+        box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+    }
+    
+    .form .input-box .label {
+    
+        position: absolute;
+        top: 8px;
+        -moz-top: 6px;
+        left: 8px;
+        color: #ccc;
+    }
+    
+        .mozilla .form .input-box .label {
+        
+            top: 6px;
+        }
+    
+    .form .input-box .check {
+    
+        display: none;
+        width: 20px;
+        height: 17px;
+        margin-top: 8px;
+        float: right;
+    }
+    
+        .form .input-box.invalid .check {
+        
+            display: block;
+            background-image: url(../images/invalid.png);
+            background-repeat: no-repeat;
+        }
+        
+        .form .input-box.valid .check {
+        
+            display: block;
+            background-image: url(../images/valid.png);
+            background-repeat: no-repeat;
+        }
+        
+        .form .input-box.check .check {
+        
+            margin-top: 0px;
+        }
+    
+    .form .input-box .error {
+    
+        display: none;
+        font-size: 11px;
+        font-style: italic;
+        color: #444;
+        margin-top: 2px;
+    }
+    
+        .form .input-box.invalid .error {
+        
+            display: block;
+        }
+
+    .form .input-box input[type=submit] {
+    
+        padding: 5px 10px;
+        font-size: 16px;
+        background-color: #fff;
+        border: none;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -moz-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+        -webkit-box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+        box-shadow: 0 0 5px rgba( 0, 0, 0, .2 );
+    }
+    
+    .form .input-box input[type=submit]:hover {
+    
+        -moz-box-shadow: 0 0 5px rgba( 0, 0, 0, .4 );
+        -webkit-box-shadow: 0 0 5px rgba( 0, 0, 0, .4 );
+        box-shadow: 0 0 5px rgba( 0, 0, 0, .4 );
+        cursor: pointer;
+    }
+	
+	.title_select
+	{
+	float: right;
+	margin-top: -2px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: -2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	top: -2px;
+	}
+	
+	.title_select select
+	{
+		font-family: 'Segoe UI', 'Arial';
+		font-size: 14px;
+	}
+	
+	.error, .delete_error
+	{
+		font-family: 'Segoe UI', 'Arial';
+		font-size: 14px;
+		color: #333333;
+		border: 1px solid #FF0000;
+		padding: 4px;
+	}
+	
+/*??????????? --------------------------*/
+#reference_subheader_outer
+{
+	width: 100%;
+	height: 32px;
+	position: absolute;
+	overflow: visible;
+}
+
+#reference_subheader
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	background-color: #F4F4F4;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-attachment: fixed;
+	height: 32px;
+	float: none;
+	position: relative;
+	margin-right: 38px;
+	z-index: 250;
+	margin-left: 1px;
+}
+
+#reference_subheader .right
+{
+	float: right;
+	height: 26px;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	width: 350px;
+	position: static;
+}
+
+#reference_subheader .title
+{
+	font-family: 'Segoe UI', 'Arial';
+	float: right;
+	text-align: left;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 4px;
+    padding-right: 10px;
+	/*width: 180px;*/
+}
+
+#reference_subheader .header
+{
+	font-family: 'Segoe UI', 'Arial';
+	float: left;
+	text-align: left;
+	font-size: 16px;
+	color: #333333;
+	margin-top: 6px;
+	width: 480px;
+	margin-left: 8px;
+}
+
+#reference_table
+{
+	width: 100%;
+	vertical-align: middle;
+	position: relative;
+	margin-top: 34px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+	margin-left: 1px;
+}
+
+#reference_table th
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+	height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	vertical-align: middle;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#reference_table td
+{
+	font-family: 'Segoe UI', 'Arial';
+	/*color: #333333;*/
+	font-size: 14px;
+	height: 25px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	vertical-align: middle;
+	font-weight: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right-style: solid;
+}
+
+#reference_table .key
+{
+	height: 15px;
+	width: 55px;
+	display: block;
+	float: right;
+	text-align: right;
+	margin-right: 6px;
+}
+
+#reference_table .ic
+{
+	background-repeat: no-repeat;
+	height: 15px;
+	width: 16px;
+	display: block;
+	text-decoration: none;
+	background-image: url(/web/bundles/ljsimple/img/main/ic_keys.png);
+	float: right;
+	margin-left: 3px;
+}
+
+/*ic_plus*/
+#reference_table .yellow_key	{background-position: 0px 0px;}
+#reference_table .gray_key		{background-position: -16px 0px;}
+#reference_table .blue_key		{background-position: -32px 0px;}
+/*---------------------------------------------------*/
+
+#reference1_left
+{
+	float:left;
+	vertical-align: top;
+	width: 230px;
+	border: 1px solid #CCCCCC;
+	padding-bottom: 10px;
+}
+
+#reference1_right
+{
+	vertical-align: top;
+	width: 100%
+}
+
+#reference1_subheader_outer
+{
+	padding-left: 20px;
+	margin-right: -30px;
+	/*height: 35px;*/
+	z-index: 99999;
+}
+
+#reference1_table1
+{
+	vertical-align: middle;
+	position: relative;
+	margin-top: 10px;
+	margin-right:20px;
+	margin-left:35px;
+	padding-bottom: 20px;
+}
+
+#reference1_subheader
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	background-color: #F4F4F4;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-attachment: fixed;
+	height: 32px;
+	float: none;
+	position: relative;
+	margin-right: 38px;
+	z-index: 250;
+	margin-left: 1px;
+}
+
+#reference1_subheader .right
+{
+	float: right;
+	height: 26px;
+	padding-top: 1px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	width: 350px;
+	position: static;
+	z-index: 99999;
+}
+
+#reference1_subheader .title
+{
+	font-family: 'Segoe UI', 'Arial';
+	float: right;
+	text-align: left;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 4px;
+    padding-right: 10px;
+	/*width: 180px;*/
+}
+
+#reference1_table2
+{
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: -60;
+}
+
+#reference1_subheader_table
+{
+	background-attachment: fixed;
+	/*height: 32px;*/
+	float: none;
+	position: relative;
+	margin-right: 38px;
+	z-index: 250;
+	margin-left: 1px;
+	z-index: 1;
+	padding-left: 15px;
+}
+
+#reference1_subheader_table th
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+	height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	vertical-align: middle;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#reference1_subheader_table td
+{
+	font-family: 'Segoe UI', 'Arial';
+	/*color: #333333;*/
+	font-size: 14px;
+	height: 25px;
+	
+	vertical-align: middle;
+	font-weight: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right-style: solid;
+}
+
+#reference1_subheader_table .icAllow
+{
+	background-image: url(/web/bundles/ljsimple/img/main/status_ok.png);
+	height: 15px;
+	width: 15px;
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+/*----- Navigation reference1 -----*/
+#nav_reference1 
+{
+margin-bottom: 10px;
+}
+#nav_reference1 li 
+{
+	/*float:left;*/
+}
+#nav_reference1 li a 
+{
+	display: block;
+	font-family: 'Segoe UI', 'Arial';
+	font-size: 16px;
+	text-decoration: none;
+	color: #333333;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#nav_reference1 li a:hover 
+{
+	color: #333333;
+	background-color: #f0f0f0;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding-top: 7px;
+	padding-bottom: 11px;
+}
+
+#nav_reference1 li .active
+{
+    background-color: #f0f0f0;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding-top: 7px;
+    padding-bottom: 11px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------*/
+#usermanagement_subheader_outer
+{
+	width: 100%;
+	height: 32px;
+	position: absolute;
+	overflow: visible;
+}
+
+#usermanagement_subheader
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	background-color: #F4F4F4;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-attachment: fixed;
+	height: 32px;
+	float: none;
+	position: relative;
+	margin-right: 38px;
+	z-index: 250;
+	margin-left: 1px;
+}
+
+#usermanagement_subheader .right
+{
+	float: right;
+	height: 26px;
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	width: 350px;
+	position: static;
+}
+
+#usermanagement_subheader .title
+{
+	font-family: 'Segoe UI', 'Arial';
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 4px;
+	width: 180px;
+}
+
+#usermanagement_table
+{
+	width: 100%;
+	vertical-align: middle;
+	position: relative;
+	margin-top: 34px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+	margin-left: 1px;
+}
+
+#usermanagement_table th
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #006699;
+	font-size: 14px;
+	height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	vertical-align: middle;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#usermanagement_table td
+{
+	font-family: 'Segoe UI', 'Arial';
+	/*color: #333333;*/
+	font-size: 14px;
+	height: 25px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	vertical-align: middle;
+	font-weight: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right-style: solid;
+}
+
+#main_table .icDeny
+{
+	background-image: url(/web/bundles/ljsimple/img/main/status_error.png);
+	height: 15px;
+	width: 15px;
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#main_table .icAllow
+{
+	background-image: url(/web/bundles/ljsimple/img/main/status_ok.png);
+	height: 15px;
+	width: 15px;
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.active_row
+{
+	background-color: #FFFFAA;
+}
+
+#reports h1
+{
+	font-family: 'Segoe UI', 'Arial';
+	color: #333333;
+	font-size: 16px;
+}
+
+#reports .header
+{
+	position: relative;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+#reports .report_ic
+{
+	float: left;
+	height: 32px;
+	width: 32px;
+}
+
+#reports .report_name
+{
+	padding-left: 15px;
+	display: block;
+	vertical-align: middle;
+	margin-top: 5px;
+	float: left;
+}
+
+#reports .description
+{
+	/*font-family: MyriadPro, 'Myriad Pro';*/
+	font-family: 'Calibri', 'Arial';
+	font-size: 16px;
+	color: #333333;
+	position: relative;
+	padding-top: 2px;
+	width: auto;
+	padding-left: 45px;
+
+}
+
+#reports a:hover
+{
+	color: #993300;
+}
+
+/*********************************/
+/* outmost wrapper element */
+#scrollable {
+	background-color:#efefef;
+	border:1px solid #ddd;
+	width:350px;
+	height:40px;
+}
+
+/* container for the scrollable items */
+div.items {
+	height:40px;
+	float:left;
+	width:324px !important;
+}
+
+
+
+/* single item */
+div.items img {
+	display:block;
+	float:left;
+	margin-right:8px;
+	font-size:12px;
+	color:#ccc;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	margin-top: 4px;
+	height: 32px;
+	width: 32px;
+	padding-top: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+
+div.items img:hover {
+	margin-right: 8px;
+	border: 2px solid #009900;
+	padding: 0px;
+}
+
+div.items img.active {
+    margin-right: 8px;
+    border: 2px solid #009900;
+    padding: 0px;
+}
+
+div.items a.active {
+	background-position:-174px 0;		
+	color:#555;
+	cursor:default;
+}
+
+
+/* next / prev buttons */
+a.prev, a.next {
+	display:block;
+	width:13px;
+	height:40px;
+	background-repeat:no-repeat;
+	cursor: pointer;
+}
+
+a.prev {
+	background-image: url(/web/bundles/ljsimple/img/main/ScrollBt.png);
+	float: left;
+}
+
+a.prev:hover {
+	background-image: url(/web/bundles/ljsimple/img/main/ScrollBt.png);
+}
+
+a.next {
+	float: left;
+	background-image: url(/web/bundles/ljsimple/img/main/ScrollBt.png);
+	background-position: -13px;
+}
+
+a.next:hover {
+	background-image: url(/web/bundles/ljsimple/img/main/ScrollBt.png);
+}
+
+
+.file_dialog{
+position: absolute;
+width: 219px;
+margin-left: -110px;
+cursor: default;
+height: 21px;
+z-index: 2;
+filter: alpha(opacity: 0);
+opacity: 0;
+float: right;
+}
+
+.fakeButton {
+position: absolute;
+z-index: 1;
+width: 85px;
+height: 21px;
+background: url(images/button.jpg) no-repeat left top;
+}

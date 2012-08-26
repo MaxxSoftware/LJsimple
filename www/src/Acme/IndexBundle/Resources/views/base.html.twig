@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="{{ asset('web/bundles/ljsimple/css/reset.css') }}" type="text/css" media="all" />   
+        <link rel="stylesheet" href="{{ asset('web/bundles/ljsimple/css/style.css') }}" type="text/css" media="all" /> 
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    
+ <body>
+
+<div id="outer_wrapper">
+    <div id="wrapper">
+        <div id="container">
+            <div id="content">
+                <div id="container_left"></div>
+                <div id="main">
+                    <div id="header">
+                        
+                        <div class="right">
+                            <div id="login_menu">
+                                | <a href=#>Выход</a>                                                                        
+                            </div> 
+                            <!-- main menu -->
+                            <div id="main_menu">
+                                
+                            </div> <!-- main menu -->
+                        </div> <!-- right -->
+                    </div> <!-- header -->
+                    <!-- main content -->    
+                    <div id="wrap_content">
+                        
+                        {% block body %}
+                        {% endblock %} 
+                               
+                    </div> <!-- wrap_content-->
+                    
+
+                    
+                    <div id="footer">
+                        <div id="footer_left">CopyRights</div>
+                        <div id="footer_right"></div>
+                    </div><!--end footer-->
+                </div> <!-- main -->
+            </div> <!-- end content -->
+        </div> <!-- end container -->
+        
+        <div id="sidebar"></div>
+    </div> <!-- end wrapper -->
+
+</div> <!-- end outer_wrapper --> 
+
+</body>
+</html>   
