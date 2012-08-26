@@ -3,5 +3,6 @@
 # Symfony directories
 */logs/*
 */cache/*
+www/app/cache/*
 www/web/uploads/*
 

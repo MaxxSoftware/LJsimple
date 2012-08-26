@@ -1,6 +1,16 @@
-
+-- phpMyAdmin SQL Dump
+-- version 3.1.5
+-- http://www.phpmyadmin.net
+--
+-- Хост: localhost
+-- Время создания: Авг 26 2012 г., 13:50
+-- Версия сервера: 5.1.53
+-- Версия PHP: 5.4.6
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+SET AUTOCOMMIT=0;
+START TRANSACTION;
 
 --
 -- База данных: `LJsimple`
@@ -32,8 +42,6 @@ CREATE TABLE IF NOT EXISTS `comments` (
 -- Структура таблицы `posts`
 --
 
-
-
 CREATE TABLE IF NOT EXISTS `posts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `post` text NOT NULL,
@@ -41,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `create_date` datetime NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Дамп данных таблицы `posts`
@@ -57,16 +65,19 @@ CREATE TABLE IF NOT EXISTS `posts` (
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `login` varchar(100) NOT NULL,
+  `name` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `email` varchar(200) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `login` (`login`,`email`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
 -- Дамп данных таблицы `users`
 --
 
+INSERT INTO `users` (`id`, `login`, `name`, `password`, `email`) VALUES
+(1, 'user', 'user', 'ee11cbb19052e40b07aac0ca060c23ee', 'm@m.ru');
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
@@ -77,3 +88,5 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 ALTER TABLE `posts`
   ADD CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+COMMIT;
