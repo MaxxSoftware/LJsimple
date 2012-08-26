@@ -24,12 +24,17 @@ class IndexController extends Controller
             ->findOneByLogin($login);
     if ($user) {
       $lastPost = $this->findLastPost($user->getId());
+      if ($lastPost) {
+        $lastPost = $lastPost[0]->getTitle();
+      } else {
+        $lastPost = '';
+      }
       return $this->render('AcmeUserBundle:Index:index.html.twig', array(
         'name' => $user->getName(),
         'login' => $user->getLogin(),
         'email' => $user->getEmail(),
         'num_post' => $this->findNumberUserPosts($user->getId()),
-        'last_post' => $lastPost[0]->getTitle(),
+        'last_post' => $lastPost,
       ));
     } else {
       return $this->render('AcmeUserBundle:Index:nouser.html.twig');
