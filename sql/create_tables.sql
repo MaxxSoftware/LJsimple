@@ -91,4 +91,12 @@ INSERT INTO `users` (`id`, `login`, `name`, `password`, `email`) VALUES
 ALTER TABLE `posts`
   ADD CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
+ALTER TABLE `comments` ADD FOREIGN KEY ( `user_id` ) REFERENCES `LJsimple`.`users` (
+`id`
+) ON DELETE CASCADE ON UPDATE CASCADE ;
+
+ALTER TABLE `comments` ADD FOREIGN KEY ( `post_id` ) REFERENCES `LJsimple`.`posts` (
+`id`
+) ON DELETE CASCADE ON UPDATE CASCADE ;
+
 COMMIT;
