@@ -15,24 +15,12 @@ class IndexController extends Controller
     
     public function indexAction()
     {
-
-        $post = new Posts();
-        $em =  $this->getDoctrine()->getEntityManager(); 
-        
-        $posts = $this->getDoctrine()
+        $posts =  $this->getDoctrine()
         ->getRepository('AcmeIndexBundle:Posts')
-        ->find(1);
+        ->findAll();
 
-        $user = $posts->getUser()->getName();
-       /* $post->setPost('asd');
-        $post->setUserId(1);
-        $post->setCreareDate(new \DateTime("now"));
-        $em = $this->getDoctrine()->getEntityManager();
-        $em->persist($post);
-        $em->flush();                                       */
-        print_r($posts);
-        return $this->render('AcmeIndexBundle:Index:index.html.twig', array('name' => serialize($posts)));
-       // return new Response('Created product id '.$post->getId());
+    
+        return $this->render('AcmeIndexBundle:Index:index.html.twig',array('posts'=>$posts));
     }
 
 }
