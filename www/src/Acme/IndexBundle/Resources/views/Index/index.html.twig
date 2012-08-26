@@ -1,4 +1,11 @@
 {% extends 'AcmeIndexBundle::base.html.twig' %}
 {% block body %}
-    {{ name }}
+    {% for post in posts %}
+        <div class="post">
+            <div class="post_header">
+                {{ post. }}
+            </div>
+        </div>
+        {{ item.getPost() }}
+    {% endfor  %}
 {% endblock %}

@@ -30,6 +30,11 @@ class Posts
      */
      protected $createDate;
      
+     /**
+     * @ORM\Column(type="string")
+     */
+     protected $title;
+     
      
       /**
      * @ORM\ManyToOne(targetEntity="Users", inversedBy="posts")
@@ -47,12 +52,21 @@ class Posts
     public function __construct()
     {
         $this->comments = new ArrayCollection();
-        $this->user = new ArrayCollection();
     }
          
 
      public function getId()
      {return $this->id;}
+     
+     public function setTitle($title)
+     {
+         $this->title = $title;
+     }
+     
+     public function getTitle()
+     {
+         return $this->title;
+     }     
 
      public function setPost($post)
      {
@@ -84,6 +98,11 @@ class Posts
      public function getUser()
      {
          return $this->user;
+     }
+     
+     public function setUser($user)
+     {
+         $this->user = $user;
      }
     
      public function getPostsListWIthUserName($em)
