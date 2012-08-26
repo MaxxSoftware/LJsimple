@@ -1,4 +1,4 @@
-AcmeIndexBundle:
+redirect:
     resource: "@AcmeIndexBundle/Resources/config/routing.yml"
     prefix:   /
 

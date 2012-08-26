@@ -5,3 +5,7 @@ _start:
 _userform:
     pattern: /userform/
     defaults: { _controller: AcmeIndexBundle:Index:Form }
+
+profile:
+    pattern: /profile/
+    defaults: { _controller: AcmeUserBundle:Index:index }
