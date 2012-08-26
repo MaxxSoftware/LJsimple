@@ -3,9 +3,11 @@
     {% for post in posts %}
         <div class="post">
             <div class="post_header">
-                {{ post.getTitle() }} by <div class="user_name">{{ post.getUser().getName() }}</div> in {{ post.getCreareDate() }}
+                <h1>{{ post.getTitle() }}</h1> <div class="user_name">by {{ post.getUser().getName() }} in {{ post.getCreareDate() }}</div>
             </div>
+            <p>
             {{ post.getShortPost() }}
+            </p>
              <a href="{{ path('_showPost', { 'id': post.getId }) }}"><br>Читать полностью</a>   
         </div>
     {% endfor  %}
