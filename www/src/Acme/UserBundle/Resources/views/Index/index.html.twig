@@ -1,0 +1,33 @@
+{% extends 'AcmeIndexBundle::base.html.twig' %}
+{% block body %}
+<div class="fl-l w30">
+  <img src="{{ asset('bundles/ljsimple/img/main/ic_login_error.png') }}" width="32" height="32" alt="нет аватарки" />
+</div>
+<div class="fl-l w70">
+<p class="profile_string">
+  <span class="profile_field">
+    Ф.И.О.:
+  </span>
+  <span class="profile_field_value">
+    {{ name }}
+  </span>
+</p>
+<p class="profile_string">
+  <span class="profile_field">
+    Логин:
+  </span>
+  <span class="profile_field_value">
+    {{ login }}
+  </span>
+</p>
+<p class="profile_string">
+  <span class="profile_field">
+    Email:
+  </span>
+  <span class="profile_field_value">
+    {{ email }}
+  </span>
+</p>
+</div>
+<div class="cl-b"></div>
+{% endblock %}

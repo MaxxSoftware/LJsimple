@@ -7,5 +7,6 @@ _userform:
     defaults: { _controller: AcmeIndexBundle:Index:Form }
 
 profile:
-    pattern: /profile/
-    defaults: { _controller: AcmeUserBundle:Index:index }
+    resource: "@AcmeUserBundle/Controller/IndexController.php"
+    type: annotation
+    prefix: /profile
