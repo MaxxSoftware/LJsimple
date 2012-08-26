@@ -28,6 +28,24 @@
     {{ email }}
   </span>
 </p>
+<p class="profile_string">
+  <span class="profile_field">
+    Количество созданных тем:
+  </span>
+  <span class="profile_field_value">
+    {{ num_post }}
+  </span>
+</p>
+{% if num_post > 0 %}
+<p class="profile_string">
+  <span class="profile_field">
+    Название последней созданного сообщения:
+  </span>
+  <span class="profile_field_value">
+    {{ last_post }}
+  </span>
+</p>
+{% endif %}
 </div>
 <div class="cl-b"></div>
 {% endblock %}
