@@ -15,14 +15,15 @@ class IndexController extends Controller
     {
 
         $post = new Posts();
-        $post->setPost('asd');
+        $em =  $this->getDoctrine()->getEntityManager(); 
+       /* $post->setPost('asd');
         $post->setUserId(1);
         $post->setCreareDate(new \DateTime("now"));
         $em = $this->getDoctrine()->getEntityManager();
         $em->persist($post);
-        $em->flush();
-
-        return new Response('Created product id '.$post->getId());
+        $em->flush();                                       */
+        print_r($post->getPostsListWIthUserName($em));
+       // return new Response('Created product id '.$post->getId());
     }
 
 }
