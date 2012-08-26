@@ -50,6 +50,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+ALTER TABLE `posts` ADD `title` VARCHAR( 255 ) NOT NULL AFTER `id` 
 
 --
 -- Дамп данных таблицы `posts`
