@@ -1,0 +1,7 @@
+_start:
+    pattern:  /
+    defaults: { _controller: AcmeIndexBundle:Index:index }
+
+_userform:
+    pattern: /userform/
+    defaults: { _controller: AcmeIndexBundle:Index:Form }

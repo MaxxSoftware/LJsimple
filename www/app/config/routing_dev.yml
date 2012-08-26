@@ -1,11 +1,7 @@
-_start:
-    pattern:  /
-    defaults: { _controller: AcmeIndexBundle:Index:index }
+AcmeIndexBundle:
+    resource: "@AcmeIndexBundle/Resources/config/routing.yml"
+    prefix:   /
 
-_userform:
-    pattern: /userform/
-    defaults: { _controller: AcmeIndexBundle:Index:Form }    
-    
 _demo_secured:
     resource: "@AcmeDemoBundle/Controller/SecuredController.php"
     type:     annotation
