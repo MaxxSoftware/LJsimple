@@ -30,8 +30,6 @@ class Posts
      */
      protected $createDate;
      
-
-     protected $user_id; 
      
       /**
      * @ORM\ManyToOne(targetEntity="Users", inversedBy="posts")
@@ -49,6 +47,7 @@ class Posts
     public function __construct()
     {
         $this->comments = new ArrayCollection();
+        $this->user = new ArrayCollection();
     }
          
 
@@ -75,15 +74,6 @@ class Posts
          return $this->createDate;
      }
      
-     public function setUserId($user_id)
-     {
-         $this->user_id = $user_id;
-     } 
-     
-     public function getUserId()
-     {
-         return $this->user_id;
-     }
      
      
      public function getComments()
@@ -99,10 +89,11 @@ class Posts
      public function getPostsListWIthUserName($em)
      {
         $query = $em->createQuery('
-                SELECT p.*, count(c.id), u.name, u.login 
+                SELECT p, u.name, u.login 
                 FROM AcmeIndexBundle:Posts p
-                JOIN p.user u ON p.user_id = u.id
-                JOIN p.comments c ON p.id = c.post_id'
+                JOIN p.user u 
+                JOIN p.comments c 
+                '
                 );
         try {
             return $query->getResult();
