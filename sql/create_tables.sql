@@ -39,6 +39,8 @@ CREATE TABLE IF NOT EXISTS `comments` (
 -- Структура таблицы `posts`
 --
 
+
+
 CREATE TABLE IF NOT EXISTS `posts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `post` text NOT NULL,
