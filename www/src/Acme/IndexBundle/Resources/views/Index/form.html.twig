@@ -1,0 +1,11 @@
+{% extends 'AcmeIndexBundle::base.html.twig' %}
+{% block title %}Заполните форму{% endblock %}
+
+{% block body %}
+   <div class="main"> 
+        <form action="{{ path('_userform') }}" method="post" {{ form_enctype(form) }}>
+            {{ form_widget(form) }}  
+            <input type="submit" value="Отправить письмо" />
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,8 @@
+label {float:left;padding-right:10px;}
+.main div {clear:both; text-align:right;line-height:25px;}
+.main {float:left}
+#footer
+{
+    display: block;
+}
+#clear{clear: both;}

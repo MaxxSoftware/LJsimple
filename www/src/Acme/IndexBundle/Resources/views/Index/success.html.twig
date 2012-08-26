@@ -1,0 +1,17 @@
+{% extends 'AcmeIndexBundle::base.html.twig' %}
+{% block title %}Результат отправки формы{% endblock %}
+
+{% block body %}
+ 
+    {% if message_send_result == 1  %}
+        Сообщение отправленно
+    {% else  %}
+        Ошибка отправки
+    {% endif %}
+    
+    <br>
+        <a href="{{ url('_userform') }}">Отправить новое</a>
+    <br>
+        <a href="{{ url('_start') }}">Вернуться на главную</a>
+ 
+ {% endblock %}

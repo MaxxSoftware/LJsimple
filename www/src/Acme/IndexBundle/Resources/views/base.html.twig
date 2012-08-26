@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="{{ asset('bundles/public/style.css') }}" type="text/css" media="all" />
+        <title>{% block title %}My Bundle{% endblock %}</title>
+    </head>
+    <body>      
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+        <div id="clear"></div>
+        <div id="footer">
+            {% block footer %}
+                &copy; Копирайты тут 2012 by <a href="#">Я</a>.
+            {% endblock %}
+        </div>        
+    </body>
+   
+</html>
