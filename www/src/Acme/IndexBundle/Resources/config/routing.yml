@@ -2,9 +2,9 @@ _start:
     pattern:  /
     defaults: { _controller: AcmeIndexBundle:Index:index }
 
-_userform:
-    pattern: /userform/
-    defaults: { _controller: AcmeIndexBundle:Index:Form }
+_showPost:
+    pattern: /show/{id}
+    defaults: { _controller: AcmeIndexBundle:Index:Show }
 
 profile:
     resource: "@AcmeUserBundle/Controller/IndexController.php"

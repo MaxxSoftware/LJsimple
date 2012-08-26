@@ -1,0 +1,26 @@
+{% extends 'AcmeIndexBundle::base.html.twig' %}
+{% block body %}
+    {% for post in posts %}
+        <div class="post">
+            <div class="post_header">
+                {{ post.getTitle() }} by {{ post.getUser().getName() }} in {{ post.getCreareDate() }}
+            </div>
+            {{ post.getPost() }}
+             
+             <br>
+             Коментарии: <br>
+             {% for comment in post.getComments %} 
+             <div class="comments">
+                <div class="comment_header">
+                    {{ comment.getUser().getName() }}
+                </div>
+                <div class="comment_body">
+                    {{ comment.getComment() }}
+                </div>
+             </div> 
+             {% endfor %}
+        </div>
+    {% endfor  %}
+    
+    <a href="{{ url('_start') }}">К списку постов</a>
+{% endblock %}

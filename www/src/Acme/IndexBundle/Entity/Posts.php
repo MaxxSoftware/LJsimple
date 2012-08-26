@@ -78,6 +78,11 @@ class Posts
          return $this->post;
      }
      
+     public function getShortPost()
+     {
+         return substr($this->post,0,200);
+     }
+     
      public function setCreareDate($date)
      {
          $this->createDate = $date;
@@ -85,7 +90,7 @@ class Posts
      
      public function getCreareDate()
      {
-         return $this->createDate;
+         return $this->createDate->format('d.m.Y');
      }
      
      
@@ -107,13 +112,7 @@ class Posts
     
      public function getPostsListWIthUserName($em)
      {
-        $query = $em->createQuery('
-                SELECT p, u.name, u.login 
-                FROM AcmeIndexBundle:Posts p
-                JOIN p.user u 
-                JOIN p.comments c 
-                '
-                );
+        $query = $em->createQuery('SELECT p, count(c.id) as comment_count FROM AcmeIndexBundle:Posts p JOIN p.comments c GROUP BY p.id');  
         try {
             return $query->getResult();
         } catch (\Doctrine\ORM\NoResultException $e) {

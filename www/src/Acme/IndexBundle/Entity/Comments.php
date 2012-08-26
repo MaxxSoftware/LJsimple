@@ -27,13 +27,13 @@ class Comments
      * @ORM\ManyToOne(targetEntity="Users", inversedBy="comments")
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
-     protected $user_id;
+     protected $user;
      
       /**
-     * @ORM\ManyToOne(targetEntity="Posts", inversedBy="comments")
+     * @ORM\ManyToOne(targetEntity="posts", inversedBy="comments")
      * @ORM\JoinColumn(name="post_id", referencedColumnName="id")
      */
-     protected $post_id;
+     protected $posts;
     
     
 
@@ -56,13 +56,14 @@ class Comments
          return $this->comment;
      }
      
-     public function getUserId()
+     public function getUser()
      {
-         return $this->user_id;
+         return $this->user;
      }
      
-     public function getPostId()
+     public function getPost()
      {
-         return $this->post_id;
+         return $this->posts;
      }
+     
 }

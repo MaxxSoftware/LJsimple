@@ -16,11 +16,19 @@ class IndexController extends Controller
     public function indexAction()
     {
         $posts =  $this->getDoctrine()
-        ->getRepository('AcmeIndexBundle:Posts')
-        ->findAll();
-
-    
+            ->getRepository('AcmeIndexBundle:Posts')
+            ->findAll();     
+                                                                                               
         return $this->render('AcmeIndexBundle:Index:index.html.twig',array('posts'=>$posts));
+    }
+    
+    public function showAction($id)
+    {
+        $posts =  $this->getDoctrine()
+            ->getRepository('AcmeIndexBundle:Posts')
+            ->findById($id); 
+        
+         return $this->render('AcmeIndexBundle:Index:show.html.twig',array('posts'=>$posts));    
     }
 
 }

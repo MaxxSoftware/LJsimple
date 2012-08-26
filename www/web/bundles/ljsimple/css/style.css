@@ -1,3 +1,35 @@
+.post
+{
+    border : 1px;
+    border-color: black;
+}
+
+.comment_header
+{
+    color:#c2c2c2;
+    margin-left: -10px; 
+}
+
+.comments
+{
+    margin-left: 20px;
+}
+
+.post_header
+{
+    display: block;
+        border: 1px; 
+        border-color: black;  
+}
+
+.user_name
+{
+    display:inline;
+    color:#cccccc;
+    font-size: 0.8em;
+
+}
+
 body
 {
 	height: 100%;
